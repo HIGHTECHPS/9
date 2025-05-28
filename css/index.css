@@ -1,24 +1,19 @@
-html,body{
-    background:url('../1.jpg');
-     background-size: cover;
+htmlbody {
+    background-image: url('../1.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 }
-body {
-    min-height: 100vh;
-    min-width: 100vw;
-    position: relative;
-    font-family: 'Segoe UI', Arial, sans-serif;
-}
 .header {
     z-index: 2;
-    position: center;
-    top: 2%;
-    left: 2%;
-    width: 150vw;
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     pointer-events: none;
 }
 .header-title {
