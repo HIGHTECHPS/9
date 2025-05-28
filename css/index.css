@@ -1,8 +1,4 @@
 html,body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background:url('../1.jpg');
      background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +16,7 @@ body {
     position: center;
     top: 2%;
     left: 2%;
-    width: 100vw;
+    width: 150vw;
     display: flex;
     justify-content: left;
     pointer-events: none;
