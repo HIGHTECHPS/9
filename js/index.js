@@ -122,7 +122,7 @@ function CheckFW() {
       });
     }
 
-    document.title = "PSFree | " + fwVersion
+    document.title = "BON | " + fwVersion
   } else {
     let platform = 'Unknown platform';
 
