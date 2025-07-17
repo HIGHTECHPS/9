@@ -122,7 +122,7 @@ function CheckFW() {
       });
     }
 
-    document.title = "BON | " + fwVersion
+    document.title = "BONDOK | " + fwVersion
   } else {
     let platform = 'Unknown platform';
 
